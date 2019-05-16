@@ -4,4 +4,6 @@
 
 ### 安装
 
+```python
 pip install git+git://github.com/lzjun567/wxmp --upgrade
+```
