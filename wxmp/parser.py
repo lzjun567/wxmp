@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import xmltodict
 
-from .message.events import EventMetaClass, UnknownEvent
-from .message.messages import MessageMetaClass, UnknownMessage
+from wxmp.message import EventMetaClass, UnknownEvent
+from wxmp.message.messages import MessageMetaClass, UnknownMessage
 
 
 def parse_xml(text):
