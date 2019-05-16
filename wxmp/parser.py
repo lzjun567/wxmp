@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import xmltodict
 
-from wxmp.message import EventMetaClass, UnknownEvent
+from wxmp.message.events import EventMetaClass, UnknownEvent
 from wxmp.message.messages import MessageMetaClass, UnknownMessage
 
 
